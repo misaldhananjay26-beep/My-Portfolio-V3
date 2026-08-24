@@ -1,0 +1,10 @@
+{
+  "name": "Remix Dhananjay Misal Portfolio",
+  "description": "Cinematic Interactive Documentary \u0026 Personal Portfolio of Dhananjay Misal — Entrepreneur, Startup Founder, Innovator, and Mentor.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

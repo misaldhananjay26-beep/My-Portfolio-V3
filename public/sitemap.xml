@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>https://arjunapro.site/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://arjunapro.site/images/Official%20photo%20of%20Dhananjay%20Misal.jpg</image:loc>
+      <image:title>Dhananjay Misal — Founder of Arjuna, IIT Delhi Honoree &amp; AI Pioneer</image:title>
+      <image:caption>Official portrait of Dhananjay Misal, innovator and founder of Arjuna</image:caption>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://arjunapro.site/images/Official%20photo%20of%20Dhananjay%20Misal.jpg</video:thumbnail_loc>
+      <video:title>Dhananjay Misal — Official Documentary &amp; Journey Film</video:title>
+      <video:description>Interactive documentary detailing Dhananjay Misal's path from Class 9 at PPS ATL Lab to 1st Runner-Up at IIT Delhi for CleanSense AutoSan and founding Arjuna AI.</video:description>
+      <video:content_loc>https://arjunapro.site/assets/hero-documentary.mp4</video:content_loc>
+      <video:player_loc>https://arjunapro.site/#videos</video:player_loc>
+      <video:duration>210</video:duration>
+      <video:publication_date>2026-01-01T08:00:00+00:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.arjunapro.site/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://arjunapro.site/#story</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://arjunapro.site/#projects</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://arjunapro.site/#achievements</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://arjunapro.site/#arjuna</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://arjunapro.site/#videos</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>
