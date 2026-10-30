@@ -32,7 +32,7 @@ export const ArjunaSection: React.FC = () => {
 
           <div className="flex items-center gap-4">
             <a
-              href="https://arjunaedu.vercel.app"
+              href="https://drive.google.com/drive/folders/1IUccIOHggfMeaJQ-rCv_P3mNd22PD4_8"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3.5 rounded-full bg-gradient-to-r from-amber-600 to-amber-800 text-white font-playfair font-bold text-xs tracking-wider uppercase shadow-xl shadow-amber-500/20 hover:scale-105 transition-transform flex items-center gap-2"
