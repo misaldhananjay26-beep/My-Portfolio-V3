@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { PROJECTS_DATA, DHANANJAY_BIO } from '../data/documentary';
-import { ExternalLink, Github, Cpu } from 'lucide-react';
+import { ExternalLink, Github, Cpu, Download } from 'lucide-react';
 
 interface ProjectsSectionProps {
   projectImages?: string[];
@@ -10,7 +10,7 @@ interface ProjectsSectionProps {
 export const ProjectsSection: React.FC<ProjectsSectionProps> = ({ projectImages = [] }) => {
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
 
-  const categories = ['All', 'EdTech & Artificial Intelligence', 'Assistive Hardware & AI Vision', 'Smart Sanitation & IoT', 'Social Leadership & STEM Mentorship'];
+  const categories = ['All', 'EdTech & Artificial Intelligence', 'EdTech & Simulation', 'Assistive Hardware & AI Vision', 'Smart Sanitation & IoT', 'Social Leadership & STEM Mentorship'];
 
   const filteredProjects = selectedCategory === 'All'
     ? PROJECTS_DATA
@@ -153,7 +153,19 @@ export const ProjectsSection: React.FC<ProjectsSectionProps> = ({ projectImages 
                     </div>
 
                     {/* Links */}
-                    <div className="flex items-center gap-3">
+                    <div className="flex items-center gap-3 flex-wrap">
+                      {project.appDownloadUrl && (
+                        <a
+                          href={project.appDownloadUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center gap-1 px-3.5 py-1.5 rounded-lg border border-emerald-500/40 bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-200 text-xs font-playfair font-medium transition-all cursor-pointer"
+                          title="Download the Android app from Google Drive"
+                        >
+                          <Download className="w-3.5 h-3.5" />
+                          <span>Get Android App</span>
+                        </a>
+                      )}
                       <a
                         href={project.githubUrl || DHANANJAY_BIO.socials.github}
                         target="_blank"
@@ -165,6 +177,8 @@ export const ProjectsSection: React.FC<ProjectsSectionProps> = ({ projectImages 
                       </a>
                       <a
                         href={project.demoUrl || "#contact"}
+                        target={project.demoUrl ? "_blank" : undefined}
+                        rel={project.demoUrl ? "noopener noreferrer" : undefined}
                         className="flex items-center gap-1 px-3.5 py-1.5 rounded-lg bg-amber-600 hover:bg-amber-500 text-white text-xs font-playfair font-medium transition-all shadow-md hover:scale-105 cursor-pointer"
                       >
                         <span>Explore</span>
